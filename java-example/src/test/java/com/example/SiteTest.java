@@ -4,7 +4,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
 
 import java.util.Random;
 
@@ -12,7 +11,6 @@ import javax.imageio.ImageIO;
 
 import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
